@@ -1,0 +1,11 @@
+{
+    "manifest_version" : 3,
+    "name" : "profile to amugea",
+    "version" : "0.1",
+    "content_scripts" : [
+        {
+            "matches" : ["https://el2.koreatech.ac.kr/*"],
+            "js" : ["index.js"]
+        }
+    ]
+}
